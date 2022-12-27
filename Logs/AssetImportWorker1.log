@@ -1,0 +1,589 @@
+Unity Editor version:    2021.3.14f1 (eee1884e7226)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.1 (Build 22C65)
+Darwin version:          22.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/jaypark/APT1.0
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52907
+Successfully changed project path to: /Users/jaypark/APT1.0
+/Users/jaypark/APT1.0
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 78.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/jaypark/APT1.0/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56146
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.14f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000533 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 73.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.399 seconds
+Domain Reload Profiling:
+	ReloadAssembly (399ms)
+		BeginReloadAssembly (34ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (296ms)
+			LoadAssemblies (34ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (68ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (182ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002133 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jaypark/APT1.0/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jaypark/APT1.0/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.690 seconds
+Domain Reload Profiling:
+	ReloadAssembly (691ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (551ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (94.0 KB). Loaded Objects now: 4103.
+Memory consumption went from 103.5 MB to 103.4 MB.
+Total: 2.582917 ms (FindLiveObjects: 0.110917 ms CreateObjectMapping: 0.043583 ms MarkObjects: 2.325333 ms  DeleteObjects: 0.102541 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10379.994357 seconds.
+  path: Assets/HotspotLayout_25108.asset
+  artifactKey: Guid(aef15ae4f40972b47903e0b000a34ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HotspotLayout_25108.asset using Guid(aef15ae4f40972b47903e0b000a34ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bacac2526022cfca3e7e77289d9d30') in 0.048993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/um_241764.asset
+  artifactKey: Guid(ade684cfbdac6444496610e6f25dcf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/um_241764.asset using Guid(ade684cfbdac6444496610e6f25dcf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817646569d1dbd1fc8d5da8f6cd49ac3') in 0.110729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/um_225576.asset
+  artifactKey: Guid(de59200d2c415b541964ff1604064822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/um_225576.asset using Guid(de59200d2c415b541964ff1604064822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7284ee56fcd905eb631bc58575d058') in 0.008371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.533442 seconds.
+  path: Assets/tripolygon/UModeler/commentbackground1.png
+  artifactKey: Guid(f796e064701c62a45b3cdc7d1c3ac4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/UModeler/commentbackground1.png using Guid(f796e064701c62a45b3cdc7d1c3ac4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f619b07fee9704f4bf8d1be29f35cc78') in 0.051913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/tripolygon/UModeler/tooltip_lightskin_bg_selected.png
+  artifactKey: Guid(de0c24431dece6c42b5440ece18b01ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/UModeler/tooltip_lightskin_bg_selected.png using Guid(de0c24431dece6c42b5440ece18b01ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1417ed9c17c94743edf595eaf2240913') in 0.003535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/tripolygon/UModeler/CustomSkin.guiskin
+  artifactKey: Guid(a7afc553f5cdfe243a66a0de8c2178f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/UModeler/CustomSkin.guiskin using Guid(a7afc553f5cdfe243a66a0de8c2178f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb69c16d5ab7ae6569f9e36b490fa78') in 0.027860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/tripolygon/UModeler/darkskin.png
+  artifactKey: Guid(6e76db2f4698d8a4e910895305e862da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/UModeler/darkskin.png using Guid(6e76db2f4698d8a4e910895305e862da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d8a51f3920e9766608979e3459d30f') in 0.003263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/tripolygon/UModeler/tooltip_lightskin_bg_deselected.png
+  artifactKey: Guid(39e07e740d2a25d49a14de0145c029dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/UModeler/tooltip_lightskin_bg_deselected.png using Guid(39e07e740d2a25d49a14de0145c029dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91368b8af70f17aa86450b90b2905a6c') in 0.005975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.319945 seconds.
+  path: Assets/tripolygon/UModeler/About/umodeler_aboutbg_light.png
+  artifactKey: Guid(83070566608d448429ed0a148bcddded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/UModeler/About/umodeler_aboutbg_light.png using Guid(83070566608d448429ed0a148bcddded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63735637fa520596aca67c7811315a38') in 0.004097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/tripolygon/UModeler/About/UModeler_Banner.png
+  artifactKey: Guid(cab87422d79233644b51e520025042bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/UModeler/About/UModeler_Banner.png using Guid(cab87422d79233644b51e520025042bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35625461c97e0cf8f8964b7026b12b42') in 0.007680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.703038 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Buillding_A.fbx
+  artifactKey: Guid(dd92dc9ce31874f4d91a38e1768a262f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Buillding_A.fbx using Guid(dd92dc9ce31874f4d91a38e1768a262f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9497f24c7ca3be0662d689c0a234df9') in 0.046481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/MuseumGround_B.fbx
+  artifactKey: Guid(250def0a3bd035f4da44970978eb9c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/MuseumGround_B.fbx using Guid(250def0a3bd035f4da44970978eb9c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd197bf9fd90af92059ee277d35a3cd31') in 0.016183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/MuseumWall_A.fbx
+  artifactKey: Guid(929a7425ca6df1b4d8bd083183fe4609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/MuseumWall_A.fbx using Guid(929a7425ca6df1b4d8bd083183fe4609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd51b9a8872c25483fb6caec53feda6') in 0.013328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/TreeGround_A.fbx
+  artifactKey: Guid(4299c2981e3fec2468ccd5ecd6146987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/TreeGround_A.fbx using Guid(4299c2981e3fec2468ccd5ecd6146987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1842d6d93ab335aab5d3b459c9ae852') in 0.014323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Ground_C.fbx
+  artifactKey: Guid(e4f187dcc3f1a3d48a70415b98ce3acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Ground_C.fbx using Guid(e4f187dcc3f1a3d48a70415b98ce3acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baaa532759ef488cdd8be80c8006a675') in 0.014126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Ground_B.fbx
+  artifactKey: Guid(ddeae04b2b342e247b4570e177ce0475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Ground_B.fbx using Guid(ddeae04b2b342e247b4570e177ce0475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c940e8e14fa66ae3292fa2b3372b5b3d') in 0.014752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Lamp_01C.fbx
+  artifactKey: Guid(09b8231af88fb7049b807b6dafd1057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Lamp_01C.fbx using Guid(09b8231af88fb7049b807b6dafd1057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ababb23e2ab13487e5e62781f6c992e') in 0.011076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/CarRoad_A.fbx
+  artifactKey: Guid(29e95841a4aa16d4d829c802a726de9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/CarRoad_A.fbx using Guid(29e95841a4aa16d4d829c802a726de9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022eadd91e028e3a0355a7a62891359c') in 0.011023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/House_01C.fbx
+  artifactKey: Guid(98e2162bac490f94ca992a8e00cf07e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/House_01C.fbx using Guid(98e2162bac490f94ca992a8e00cf07e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be812e2a5283efedc667bad84b59d921') in 0.010411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/House_01A.fbx
+  artifactKey: Guid(6ba1fd5c6496bab468b58dff0080802a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/House_01A.fbx using Guid(6ba1fd5c6496bab468b58dff0080802a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced822f8d2d27b8ef71aa321ba0ec88e') in 0.011045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Ground_D.fbx
+  artifactKey: Guid(4bb8a5b3fd407414491f676eb1529a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Ground_D.fbx using Guid(4bb8a5b3fd407414491f676eb1529a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fa2388e764c5ddb3053b8e8171ad03') in 0.010633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Car_01B.fbx
+  artifactKey: Guid(8b0200763f8474c458416aa8a63c356d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Car_01B.fbx using Guid(8b0200763f8474c458416aa8a63c356d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f680b59d9b33736852063834765578') in 0.014903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Ground_F.fbx
+  artifactKey: Guid(58b84970816a6fe46bc8a1d5e3e86510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Ground_F.fbx using Guid(58b84970816a6fe46bc8a1d5e3e86510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2995ad724c5a0478e5777e2d08170a66') in 0.010633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/MuseumGround_A.fbx
+  artifactKey: Guid(beec09e7441a06e459828abf50c96e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/MuseumGround_A.fbx using Guid(beec09e7441a06e459828abf50c96e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1a695d262f7d7c9560e80fee5ed42f') in 0.012975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/House_01B.fbx
+  artifactKey: Guid(27c21fde04a60b447bc2de4875826e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/House_01B.fbx using Guid(27c21fde04a60b447bc2de4875826e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775c444ea5037eed00c6cbe13d4d0aab') in 0.013844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Chair_B.fbx
+  artifactKey: Guid(e5cd342d9def36442a1f3704004e6e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Chair_B.fbx using Guid(e5cd342d9def36442a1f3704004e6e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6cfca0b08ab0a61e46182d0a9f2bde') in 0.011449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/PizzaShop_A.fbx
+  artifactKey: Guid(a9520d69b3653eb4b846a56abc0301a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/PizzaShop_A.fbx using Guid(a9520d69b3653eb4b846a56abc0301a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00697017d86ea716bada0116fe26e53e') in 0.010045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Buillding_B.fbx
+  artifactKey: Guid(3c4da92ae116d9d4f8b770418bb772bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Buillding_B.fbx using Guid(3c4da92ae116d9d4f8b770418bb772bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a4d84dd88e7f934020e867d0266529') in 0.010928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Lamp_B.fbx
+  artifactKey: Guid(dd3dbf57671f324429392b458691b53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Lamp_B.fbx using Guid(dd3dbf57671f324429392b458691b53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d49980eb1889eb3097cc8464cb6b43') in 0.011563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Lamp_02C.fbx
+  artifactKey: Guid(777a61bcc55470248b9f05337cc747c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Lamp_02C.fbx using Guid(777a61bcc55470248b9f05337cc747c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8518ec6f5801d5c1b4a0f6e66bd5cb49') in 0.014998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/CarRoad_D.fbx
+  artifactKey: Guid(a34180945a295f941b41dede146a00f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/CarRoad_D.fbx using Guid(a34180945a295f941b41dede146a00f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952bb9aa2095d95fbe940036a748f83c') in 0.013738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/House_03B.fbx
+  artifactKey: Guid(6be24c9b06192654db862aed4153b7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/House_03B.fbx using Guid(6be24c9b06192654db862aed4153b7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1998ba353b02df004913fb04a5fadbcc') in 0.014853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/MuseumBigDoor_A.fbx
+  artifactKey: Guid(bc4032020ee76b04b81f836d853e47c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/MuseumBigDoor_A.fbx using Guid(bc4032020ee76b04b81f836d853e47c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8b93274404226d6b368dcf15f9175b') in 0.014719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Museum_A.fbx
+  artifactKey: Guid(289020a9183da044e884a7e3731acf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/FBX/Museum_A.fbx using Guid(289020a9183da044e884a7e3731acf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f41da031391efda742c09ec75ef0cb') in 0.075119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.088160 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Materials/Buillding_B.mat
+  artifactKey: Guid(72399fa4ec015ee438854b9edeecef20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Materials/Buillding_B.mat using Guid(72399fa4ec015ee438854b9edeecef20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07761be4414f7c6edfba729f6bb30074') in 0.044576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Materials/CarPoliceLamp_Red.mat
+  artifactKey: Guid(0ab250c241734924a802005ee4284f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Materials/CarPoliceLamp_Red.mat using Guid(0ab250c241734924a802005ee4284f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfc614a893c0969b9ceaf5c0660f67e') in 0.005502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Materials/House.mat
+  artifactKey: Guid(b9b5846b0ae71554eb4e19ea4546ac36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Materials/House.mat using Guid(b9b5846b0ae71554eb4e19ea4546ac36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8faac30701009575c3103688bca16c') in 0.005598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Materials/CarPoliceSiren_Red.mat
+  artifactKey: Guid(778700a29a218dd4cbe625faa46e6af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Materials/CarPoliceSiren_Red.mat using Guid(778700a29a218dd4cbe625faa46e6af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b1fad2a923be65f304015076e9f13b') in 0.005115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Materials/CarProps.mat
+  artifactKey: Guid(b72723ffc430dbf45adc1a719c652504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Materials/CarProps.mat using Guid(b72723ffc430dbf45adc1a719c652504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efa2a1a6cd8daffccb78ac496d17def') in 0.004498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Materials/CarPoliceLamp_white.mat
+  artifactKey: Guid(bce42230989a86f4e83b93f74138a0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Materials/CarPoliceLamp_white.mat using Guid(bce42230989a86f4e83b93f74138a0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175151e8bb3ebdda1a1759101c0caf52') in 0.007877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Materials/HamburgerModel_A.mat
+  artifactKey: Guid(c8d93709d105fea458d14ffc98b37d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Materials/HamburgerModel_A.mat using Guid(c8d93709d105fea458d14ffc98b37d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d53f2cad80d1ff86e5028b86a27937') in 0.009168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Materials/RedLamp_A.mat
+  artifactKey: Guid(c438c151faae3444095cf73b2706bd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Materials/RedLamp_A.mat using Guid(c438c151faae3444095cf73b2706bd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6573da6dfedf9eb83926f2fe9c66e69a') in 0.004517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Materials/Buillding_C.mat
+  artifactKey: Guid(8f1fb9f178060c947a840c167010d873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Materials/Buillding_C.mat using Guid(8f1fb9f178060c947a840c167010d873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebb9564150f919f9eb2187f727f26e5') in 0.004288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Materials/CarGlass_A.mat
+  artifactKey: Guid(22ac9b769efa18b4ba13344f60f4b20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Materials/CarGlass_A.mat using Guid(22ac9b769efa18b4ba13344f60f4b20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d20e0f175e013ce5ec1b6fd1c53009') in 0.004192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.473229 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Buillding_A.prefab
+  artifactKey: Guid(45911163aaffda64286763be7bc8e2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Buillding_A.prefab using Guid(45911163aaffda64286763be7bc8e2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2809841464e2bc174a0b9d98b50c14') in 0.050177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/House_01C.prefab
+  artifactKey: Guid(7a160c234e8cab148b6d52a6a07ed965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/House_01C.prefab using Guid(7a160c234e8cab148b6d52a6a07ed965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e5fda2790ae086d506b26488522a7a') in 0.039499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/CarRoad_E.prefab
+  artifactKey: Guid(f22dc4eaca98a434f9ca33d9724c4107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/CarRoad_E.prefab using Guid(f22dc4eaca98a434f9ca33d9724c4107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7d6d9aeaaf935f0fcecbe98130d245') in 0.008610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Lamp_C.prefab
+  artifactKey: Guid(ae70bd0d3d2bca74e89d74879f9f7efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Lamp_C.prefab using Guid(ae70bd0d3d2bca74e89d74879f9f7efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6e64a5a2753bc036bcc046974e1c8b') in 0.010986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/House_02A.prefab
+  artifactKey: Guid(93d3abedda29ace49acd74425c348cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/House_02A.prefab using Guid(93d3abedda29ace49acd74425c348cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03525c1a9c15f6c48935c3c6923da2a2') in 0.027529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/LandScape.prefab
+  artifactKey: Guid(7a689de7b7ead5c47a65235762a45d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/LandScape.prefab using Guid(7a689de7b7ead5c47a65235762a45d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a40ea38a905a1663e48d306e16a2a1e') in 0.029448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Chair_B.prefab
+  artifactKey: Guid(d59d04eaac1768d4e9f26dd8c0ea4b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Chair_B.prefab using Guid(d59d04eaac1768d4e9f26dd8c0ea4b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f055d778edeabafe31820d523b3e38') in 0.011945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Table_A.prefab
+  artifactKey: Guid(b3b6bbd4be5133c42a0d390ed2b08a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Table_A.prefab using Guid(b3b6bbd4be5133c42a0d390ed2b08a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171ba452fd8dacba811306b0cdd200a7') in 0.058549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Tree_B.prefab
+  artifactKey: Guid(cab9d9ad7b5f3d141a57036aa2874b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Tree_B.prefab using Guid(cab9d9ad7b5f3d141a57036aa2874b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b491e28de868193172c947961643ba13') in 0.029098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Museum_A.prefab
+  artifactKey: Guid(6888204ce9617fa4c991fa2d57a49e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Museum_A.prefab using Guid(6888204ce9617fa4c991fa2d57a49e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0dac380682bd4592fa134d36c3610c') in 0.186750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Lamp_B.prefab
+  artifactKey: Guid(8a267501f44238a4083288de1bf0d38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Lamp_B.prefab using Guid(8a267501f44238a4083288de1bf0d38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811bfa80143eeb9ed78f969c3843698d') in 0.010635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Lamp_D.prefab
+  artifactKey: Guid(7c282bbe7312e23438f149c63a32fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Lamp_D.prefab using Guid(7c282bbe7312e23438f149c63a32fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7e4c28b654916eff1180299d8a0286') in 0.009798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/MuseumGround_A.prefab
+  artifactKey: Guid(909f657a9443b5542af6f9c3d16ce473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/MuseumGround_A.prefab using Guid(909f657a9443b5542af6f9c3d16ce473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a734911eecc48fe5a4c5a55bc96d845e') in 0.009228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Car_A.prefab
+  artifactKey: Guid(1750df01feccbdb4fafaae52c8405923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Car_A.prefab using Guid(1750df01feccbdb4fafaae52c8405923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fc075dc5d8f9e9a6f845e1d3db9cff') in 0.046216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/MuseumWall_A.prefab
+  artifactKey: Guid(1d9097313b8737243a9831fb9441e8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/MuseumWall_A.prefab using Guid(1d9097313b8737243a9831fb9441e8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12726bdc565929afbd958de96e584a6') in 0.008825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Ground_A.prefab
+  artifactKey: Guid(3ec2b1c3afd7d0f4dbb5f5334b72da94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Ground_A.prefab using Guid(3ec2b1c3afd7d0f4dbb5f5334b72da94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4895281539116776d99e5246a7b9c2') in 0.009032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Ground_E.prefab
+  artifactKey: Guid(7356358d395122a4f8dbd0d8a76a5eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Ground_E.prefab using Guid(7356358d395122a4f8dbd0d8a76a5eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9919d37a9bdedbea7b038b28653fb1d6') in 0.009049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Car_02B.prefab
+  artifactKey: Guid(63d710c1e8a4bf7429fb670bf50164b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Car_02B.prefab using Guid(63d710c1e8a4bf7429fb670bf50164b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcd378eb321a13e1b69ece6d6b04956') in 0.029739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/PizzaShop_A.prefab
+  artifactKey: Guid(64fa217f2cc1f4e40a030f6ccbca4967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/PizzaShop_A.prefab using Guid(64fa217f2cc1f4e40a030f6ccbca4967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f31560d19a6c8a9918d9e7287e59f0') in 0.035437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.789053 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Textures/Buillding_B_BaseColor.tga
+  artifactKey: Guid(ef625a2df36bc0840ad3dcde6c4be6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Textures/Buillding_B_BaseColor.tga using Guid(ef625a2df36bc0840ad3dcde6c4be6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d69784d6147fb2b1890fc799ef2e2d1') in 0.605442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Textures/Ground_A_BaseColor.tga
+  artifactKey: Guid(0e5a98963d2a61c4880492621594dba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Textures/Ground_A_BaseColor.tga using Guid(0e5a98963d2a61c4880492621594dba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f64289c4dec18196b9ece4ac9f2b55') in 0.004238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Textures/Hamburger_A_BaseColor.tga
+  artifactKey: Guid(ab311d0a5df9c0d46954bab40751fcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Textures/Hamburger_A_BaseColor.tga using Guid(ab311d0a5df9c0d46954bab40751fcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279458bad45734dc7f3432c461842f13') in 0.007219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Textures/PizzaShop_A_BaseColor.tga
+  artifactKey: Guid(b06138a94e5d47e4b91ce7b574911f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Textures/PizzaShop_A_BaseColor.tga using Guid(b06138a94e5d47e4b91ce7b574911f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40c8ff08aa2457845866b733cc26e33') in 0.003364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Textures/Buillding_C_BaseColor.tga
+  artifactKey: Guid(ef5b5da289ad19544b0dafd515a8fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Textures/Buillding_C_BaseColor.tga using Guid(ef5b5da289ad19544b0dafd515a8fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c274f5092c5512ec1c16e2cec75c25') in 0.005402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 150.970940 seconds.
+  path: Assets/modeleing/3d-model.fbx
+  artifactKey: Guid(0798e0d160f077c4c933ea2acd73a8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeleing/3d-model.fbx using Guid(0798e0d160f077c4c933ea2acd73a8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf40e296423b224bc15dd922779bf5f1') in 0.195518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/modeleing/uploads_files_3300784_door_24.fbx
+  artifactKey: Guid(2235ee342e52ed2468f4fda481def341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeleing/uploads_files_3300784_door_24.fbx using Guid(2235ee342e52ed2468f4fda481def341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018cf967d3267094729cb9fad0f8534c') in 0.071733 seconds 
